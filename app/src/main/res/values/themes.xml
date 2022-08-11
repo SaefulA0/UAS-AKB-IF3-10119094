@@ -1,4 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+    <!--10119094 IF-3 Saeful Anwar Oktariansah -->
     <!-- Base application theme. -->
     <style name="Theme.UASAKBIF310119094" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/purple_500</item>

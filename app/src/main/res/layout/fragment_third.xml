@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--10119094 IF-3 Saeful Anwar Oktariansah -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ThirdFragment">
-
     <TextView
         android:id="@+id/Tentang"
         android:layout_width="match_parent"
@@ -48,5 +50,4 @@
         android:text="Aplikasi ini dibuat oleh: Saeful Anwar 10119094"
         android:layout_marginBottom="24dp"
         />
-
 </RelativeLayout>

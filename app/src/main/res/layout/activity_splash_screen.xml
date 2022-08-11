@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--10119094 IF-3 Saeful Anwar Oktariansah -->
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -15,6 +18,6 @@
         android:layout_centerVertical="true"
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerCrop"
-        android:src="@drawable/logo"/>
-
+        android:src="@drawable/logo"
+        />
 </RelativeLayout>

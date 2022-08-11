@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--10119094 IF-3 Saeful Anwar Oktariansah -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
-
     <TextView
         android:id="@+id/Notes"
         android:layout_width="match_parent"
@@ -17,14 +19,13 @@
         android:layout_margin="24dp"
         android:gravity="center"
         />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listNotes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/Notes"
-        tools:listitem="@layout/ctnnotes"/>
-
+        tools:listitem="@layout/ctnnotes"
+        />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatbtn"
         android:layout_width="wrap_content"

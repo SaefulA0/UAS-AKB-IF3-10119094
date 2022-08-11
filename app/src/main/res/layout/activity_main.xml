@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--10119094 IF-3 Saeful Anwar Oktariansah -->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
@@ -15,8 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:elevation="16dp"
-        app:menu="@menu/botom_menu"/>
-
+        app:menu="@menu/botom_menu"
+        />
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"
@@ -27,8 +29,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/navbar" />
-
+        app:navGraph="@navigation/navbar"
+        />
     <Button
         android:id="@+id/LogOutBtn"
         android:layout_width="wrap_content"
@@ -43,7 +45,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.025"
-        android:onClick="logout"/>
-
-
+        android:onClick="logout"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
