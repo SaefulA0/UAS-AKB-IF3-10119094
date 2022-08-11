@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "812211314905",
+    "project_id": "loginregisternoter",
+    "storage_bucket": "loginregisternoter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812211314905:android:52ef8eb5b1ce75e2db5ec8",
+        "android_client_info": {
+          "package_name": "com.example.uas_akb_if3_10119094"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812211314905-eh37o9r0tbhr3b6j6lbt1v9mumn173ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANfxY35xbR7wH4ZqzAT9_7pv01N1v25BI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812211314905-eh37o9r0tbhr3b6j6lbt1v9mumn173ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
